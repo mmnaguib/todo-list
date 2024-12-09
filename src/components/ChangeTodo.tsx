@@ -3,7 +3,6 @@ import Form from "./Form";
 import Input from "./Input";
 import Button from "./Button";
 import { changeTodo } from "@/actions";
-import { FaCheckCircle } from "react-icons/fa";
 export interface todo {
   id: string;
   title: string;

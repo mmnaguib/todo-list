@@ -2,7 +2,6 @@ import React from "react";
 import ChangeTodo, { todo } from "./ChangeTodo";
 import EditTodo from "./EditTodo";
 import DeleteTodo from "./DeleteTodo";
-import { FaTrash } from "react-icons/fa";
 
 const Todo = ({ todo }: { todo: todo }) => {
   const todoStyle = {

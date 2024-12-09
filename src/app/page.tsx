@@ -1,7 +1,6 @@
 import { getTodos } from "@/actions";
 import AddTodo from "@/components/AddTodo";
 import Todo from "@/components/Todo";
-import { prisma } from "@/utils/prisma";
 import { Fragment } from "react";
 
 export default async function Home() {
